@@ -1,7 +1,7 @@
 # Neural-Style-Transfer-for-Images
 Besides Deep Dream, another major development in deep learning-driven image modification that happened in the summer of 2015 is neural style transfer, introduced by Leon Gatys et al. The neural style transfer algorithm has undergone many refinements and spawned many variations since its original introduction, including a viral smartphone app, called Prisma. For simplicity, this section focuses on the formulation described in the original paper.
 Neural style transfer consists in applying the "style" of a reference image to a target image, while conserving the "content" of the target image:
- ![alt text](https://s3.amazonaws.com/book.keras.io/img/ch8/style_transfer.png)
+ ![](style_transfer.png)
  
 What is meant by "style" is essentially textures, colors, and visual patterns in the image, at various spatial scales, while the "content" is the higher-level macrostructure of the image. For instance, blue-and-yellow circular brush strokes are considered to be the "style" in the above example using Starry Night by Van Gogh, while the buildings in the Tuebingen photograph are considered to be the "content".
 
